@@ -1,0 +1,64 @@
+
+/* ARTICLE */
+
+article {
+	display: relative;
+}
+
+/* HEADER */
+header {
+	position: relative;
+}
+
+header h3 {
+	margin-left: 150px;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.jumbotron div {
+	display: block;
+	text-align: center;
+}
+/* NAV */
+
+nav {
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+nav li {
+	display: inline-block;
+	line-height: 60px;
+	padding: 0px 20px;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	height: 60px;
+
+}
+
+/* CONTENT */
+
+/* FOOTER */
+
+
+/* MISCELLANEOUS STUFF */
+
+.mycenter {
+	position: relative;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%); 
+}
