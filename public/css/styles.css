@@ -1,30 +1,35 @@
+/* HTML */
+html {
+	background-color: #B4AEA1;
+}
 
 /* ARTICLE */
-
 article {
-
+	background-color: #B4AEA1;
 }
 
 /* HEADER */
 header {
-	background-color: #eee;
 	margin-bottom: 15px;
+	background-color: rgba(27,22,14,.9);
 }
 
 header p {
-	padding-left: 30px;
+	padding-left: 50px;
 	line-height: 70px;
 	height: 70px;
-	font-size: 25px;
 	margin: 0px;
 	float: left;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	color: white;
+
 }
 
-header nav {
+/* NAV */
+nav {
 	width: 50%;
 	float: right;
-	/* background-color: green; */
-
 }
 
 nav ul {
@@ -32,87 +37,90 @@ nav ul {
 }
 
 nav li {
-	/* background-color: white; */
 	height: 70px;
 	width: 90px;
 	line-height: 70px;
 	float: left;
 	margin: 0px 15px;
 	text-align: center;
-	/* padding: 0px 15px; */
+}
+
+nav .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav .nav > li {
+  position: relative;
+  display: block;
+}
+
+nav .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 0px 15px;
+}
+
+nav .nav > li > a:hover,
+nav .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
 }
 
 /* SECTION */
-
 section {
-	min-height: 150px;
+	min-height: 200px;
+	background-image: url("../images/cool-background.jpg");
+	background-size: 100%;
+	margin-top: -15px;
+	margin-bottom: 10px;
 }
 
 .name-heading {
 	text-align: center;
-	padding: 30px 40px;
-
+	padding: 40px 150px 30px;
+	color: white;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .name-heading h1 {
-	font-size: 50px;
 	margin-top: 10px;
-}
-
-/* NAV */
-
-/* nav {
-	margin-bottom: 20px;
-}
-
-nav ul {
-	list-style: none;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-	margin-bottom: 0;
-}
-
-nav li {
-	display: inline-block;
-	line-height: 60px;
-	padding: 0px 20px;
-	display: inline-block;
-	width: 24.5%;
-	text-align: center;
-	height: 60px;
+	font-size: 50px;
+	color: white;
 
 }
-*/
 
 /* CONTENT */
+.content {
+
+}
 
 .content-box {
 	width: 80%;
 	margin-top: 20px;
+	color: white;
 }
 
 aside {
 	float: right;
 	width: 200px;
 	height: 300px;
+	padding: 5px;
 	background-color: #eee;
 	text-align: center;
 	border-radius: 10px;
 }
 
 /* FOOTER */
-
 footer {
-	margin-top: 30px;
+	padding-top: 30px;
 	clear: both;
+	background-color: #B4AEA1;
 }
 
 /* MISCELLANEOUS STUFF */
-
-.mycenter {
-	position: relative;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%); 
+a {
+	color: white;
 }
